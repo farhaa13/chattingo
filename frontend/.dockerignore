@@ -1,0 +1,13 @@
+frontend 
+# Ignore dependencies, as they are installed within the Dockerfile
+node_modules
+
+# Ignore build output, as it is generated within the Dockerfile
+build
+
+# Ignore git files
+.git
+.gitignore
+
+# Ignore local environment variables
+.env
